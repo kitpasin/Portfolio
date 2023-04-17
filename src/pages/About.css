@@ -1,0 +1,36 @@
+.about {
+    width: 100%;
+    max-width: 1096px;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    gap: 3rem;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.about-image img {
+    max-width: 200px;
+    border-radius: 999px;
+}
+
+.about-skill {
+    font-weight: 700;
+    font-size: 24px;
+}
