@@ -21,11 +21,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    @media screen and (max-width: 768px) {
-        grid-template-columns: 1fr;
-        margin: 0 auto;
-        gap: 2rem;
-    }
 }
 .projects-grid-box {
     width: 100%;
@@ -53,4 +48,12 @@
 .projects-grid-box-description {
     font-weight: 500;
     font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        gap: 2rem;
+    }
 }

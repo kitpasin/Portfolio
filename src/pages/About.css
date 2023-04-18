@@ -2,6 +2,7 @@
     width: 100%;
     padding: 7rem 1rem 5rem 1rem;
 }
+
 .about-wrapper {
     display: flex;
     flex-direction: column;
@@ -25,6 +26,7 @@
     width: 100%;
     gap: 2rem;
 }
+
 .about-profile-image {
     display: flex;
     justify-content: center;
@@ -32,21 +34,25 @@
     margin: 0 auto;
     width: 100%;
 }
+
 .about-profile-image img {
     max-width: 200px;
     border: 3px solid #0079E9;
     border-radius: 999px;
 }
+
 .about-profile-information {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 1rem;
 }
+
 .about-profile-information-title {
     font-weight: 700;
     font-size: 24px;
 }
+
 .about-profile-information-name {
     display: flex;
     justify-content: center;
@@ -54,6 +60,7 @@
     font-weight: 500;
     font-size: 16px;
 }
+
 .about-profile-information-headline {
     display: flex;
     justify-content: center;
@@ -69,10 +76,12 @@
     width: 100%;
     gap: 1rem;
 }
+
 .about-profile-education-title {
     font-weight: 700;
     font-size: 24px;
 }
+
 .about-profile-education-description {
     font-weight: 500;
     font-size: 16px;
@@ -84,10 +93,12 @@
     width: 100%;
     gap: 1rem;
 }
+
 .about-profile-experience-title {
     font-weight: 700;
     font-size: 24px;
 }
+
 .about-profile-experience-description {
     font-weight: 500;
     font-size: 16px;
@@ -102,12 +113,12 @@
     width: 100%;
     max-width: 1096px;
     gap: 1rem;
-    @media screen and (max-width: 1096px) {
-        grid-template-columns: 1fr;
-    }
 }
 
-.about-skill-markup, .about-skill-style, .about-skill-script, .about-skill-framework {
+.about-skill-markup,
+.about-skill-style,
+.about-skill-script,
+.about-skill-framework {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,12 +129,18 @@
     border-radius: 10px;
     color: #fff;
 }
-.about-skill-markup-title, .about-skill-style-title, .about-skill-script-title, .about-skill-framework-title {
+
+.about-skill-markup-title,
+.about-skill-style-title,
+.about-skill-script-title,
+.about-skill-framework-title {
     font-weight: 700;
     font-size: 16px;
     color: #ffd000;
 }
-.about-skill-markup-list, .about-skill-script-list {
+
+.about-skill-markup-list,
+.about-skill-script-list {
     font-weight: 500;
     font-size: 16px;
     list-style: none;
@@ -133,19 +150,32 @@
     gap: 3rem;
     width: 100%;
 }
-.about-skill-style-list, .about-skill-framework-list {
+
+.about-skill-style-list,
+.about-skill-framework-list {
     font-weight: 500;
     font-size: 16px;
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    @media screen and (max-width: 519px) {
-        grid-template-columns: 1fr;
-    }
+
 }
 
 strong {
     font-weight: 700;
     font-size: 24px;
+}
+
+@media screen and (max-width: 1096px) {
+    .about-skill {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 519px) {
+    .about-skill-style-list,
+    .about-skill-framework-list {
+        grid-template-columns: 1fr;
+    }
 }

@@ -20,9 +20,6 @@
 
 .nav-logo {
     width: 100%;
-    @media screen and (max-width:320px) {
-        display: none;
-    }
 }
 .nav-logo a {
     text-decoration: none;
@@ -38,17 +35,26 @@
     list-style: none;
     gap: 1rem;
     width: 100%;
-    @media screen and (max-width: 320px) {
-        justify-content: space-between;
-    }
-
 }
 .nav-menu a {
     text-decoration: none;
     font-weight: 700;
     font-size: 24px;
     color: #fff;
-    @media screen and (max-width: 768px) {
-        font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-menu a {
+        font-size: 16px;    
+    }
+}
+@media screen and (max-width:320px) {
+    .nav-logo {
+        display: none;
+    }
+}
+@media screen and (max-width: 320px) {
+    .nav-menu {
+        justify-content: space-between;
     }
 }
