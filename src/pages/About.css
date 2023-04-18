@@ -40,8 +40,8 @@
 .about-profile-information {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     width: 100%;
+    gap: 1rem;
 }
 .about-profile-information-title {
     font-weight: 700;
@@ -49,14 +49,14 @@
 }
 .about-profile-information-name {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     font-weight: 500;
     font-size: 16px;
 }
 .about-profile-information-headline {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     text-align: left;
     width: 100%;
     font-weight: 500;
@@ -66,8 +66,8 @@
 .about-profile-education {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     width: 100%;
+    gap: 1rem;
 }
 .about-profile-education-title {
     font-weight: 700;
@@ -76,14 +76,13 @@
 .about-profile-education-description {
     font-weight: 500;
     font-size: 16px;
-    text-align: left;
 }
 
 .about-profile-experience {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     width: 100%;
+    gap: 1rem;
 }
 .about-profile-experience-title {
     font-weight: 700;
@@ -94,8 +93,7 @@
     font-size: 16px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
 }
 
 .about-skill {
