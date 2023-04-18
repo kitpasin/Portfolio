@@ -13,7 +13,7 @@ function Navbar() {
         </figure>
         <ul className="nav-menu">
           <li className="nav-menu-link">
-            <Link to="/">Home</Link>
+            <Link to="/">Resume</Link>
           </li>
           <li className="nav-menu-link">
             <Link to="/about">About</Link>
