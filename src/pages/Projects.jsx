@@ -14,7 +14,7 @@ function Projects() {
         <div className="projects-grid">
           <div className="projects-grid-box">
             <figure className="projects-grid-box-image">
-              <img src="/public/images/manami_delivery.png" />
+              <img src="/images/manami_delivery.png" />
             </figure>
             <div className="projects-grid-box-link">
               <a href="https://manami-delivery.com" target="_blank">Manami-Delivery</a>
@@ -26,7 +26,7 @@ function Projects() {
           </div>
           <div className="projects-grid-box">
             <figure className="projects-grid-box-image">
-              <img src="/public/images/wynnsoftkh.png" />
+              <img src="/images/wynnsoftkh.png" />
             </figure>
             <div className="projects-grid-box-link">
               <a href="https://wynnsoftkh.com" target="_blank">Wynnsoft-KH</a>

@@ -16,7 +16,7 @@ function Home() {
         <hr />
         <div className="home-profile">
           <figure className="home-profile-image">
-            <img src="/public/images/aisu_image_01.jpg" alt={data.basics?.name} />
+            <img src="/images/aisu_image_01.jpg" alt={data.basics?.name} />
           </figure>
           <ul className="home-profile-information">
             <li className="home-profile-information-name">
