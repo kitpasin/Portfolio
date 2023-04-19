@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import { DataContext } from "../App";
 
 // Style
-import "./Home.css"
+import "./Resume.css"
 
-function Home() {
+function Resume() {
   const data = useContext(DataContext);
 
   return (
@@ -22,4 +22,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Resume;

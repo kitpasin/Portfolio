@@ -16,9 +16,6 @@ function Navbar() {
             <Link to="/">Resume</Link>
           </li>
           <li className="nav-menu-link">
-            <Link to="/about">About</Link>
-          </li>
-          <li className="nav-menu-link">
             <Link to="/projects">Projects</Link>
           </li>
         </ul>
